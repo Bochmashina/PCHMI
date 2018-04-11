@@ -1,0 +1,36 @@
+a
+{
+	text-decoration:none;
+	color:black;
+	&:hover, &:visited, &:active { color:black; }
+}
+
+.header
+{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.header h1 {
+	display:inline;
+}
+
+h2
+{
+	text-align:center;
+}
+.layout
+{
+	text-align:center;
+}
+.email
+{
+	margin-top:2%;
+}
+.pass
+{
+	margin-top:0.5%;
+}
+button
+{
+	margin-top:0.5%;
+}

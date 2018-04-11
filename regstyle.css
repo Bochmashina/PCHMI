@@ -1,0 +1,119 @@
+html
+{
+	overflow-y:scroll;
+	height:150%;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+	&:hover, &:visited, &:active { color:black; }
+}
+
+.header
+{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+
+.header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+	display:inline;
+}
+
+.header li	{
+	display:inline;
+}
+
+.content
+{
+	height: 100%;
+	width: 100%;
+}
+
+h4{
+margin-left:20%;
+}
+
+label {
+ padding: 6px 6px 6px 0;
+  display: inline-block;
+}
+
+input/* [type=text] */ {
+ /*    width: 100%; */
+  padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input/* [type=text] */:focus {
+    border: 3px solid #555;
+}
+
+/* input[type=submit] {
+  background-color: #637074;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+
+} */
+
+button {
+    background-color: #637074;
+    border: none;
+    color: white;
+	padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	margin-left: 40%;
+	margin-top: 1%;
+ }
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.formlabel{
+  float: left;
+  width: 25%;
+  margin-top: 3px;
+  margin-left:20%
+}
+
+.forminput {
+  float: left;
+  width: 50%;
+  margin-top: 3px;
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.formcontainer {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+
+.forcompany {
+	margin-top: 1%;
+	margin-left:1%;
+}

@@ -1,0 +1,33 @@
+#searchboxes
+{
+	margin-top:2%;
+}
+
+#searchboxes a
+{
+	color:black;
+}
+
+img
+{
+  margin-top:5%;
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+#leftcolumn 
+{
+	margin-top:10%;	
+}
+
+.content ul
+{
+	font-size:150%;
+	list-style-type: none;	
+}
+
+.content a
+{
+	color:black;
+}
