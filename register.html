@@ -2,16 +2,28 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="regstyle.css">
+    <link href="libs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="libs/css/3-col-portfolio.css" rel="stylesheet">
+	<link href="regstyle.css" rel="stylesheet">
 		<title>Регистрация</title>
 	</head>
 	<body>
-		<div class="header">
-			<ul>
-				<li><h1><a href="home.html">Части</a></h1></li>
-				<li style="float:right"><a href="login.html">Вход</a></li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		  <div class="container">
+			<a class="navbar-brand" href="home.html">Части</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+				  <a class="nav-link" href="login.html">Вход</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
 		
 		<div class="content">
 		
@@ -96,5 +108,7 @@
 			
 			
 		</div>
+		<script src="libs/vendor/jquery/jquery.js"></script>
+		<script src="libs/js/bootstrap.js"></script>
 	</body>
 	</html>

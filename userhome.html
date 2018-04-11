@@ -17,42 +17,54 @@
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			  <div class="container">
-				<a class="navbar-brand" href="home.html">Части</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<a class="navbar-brand" href="userhome.html">Части</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarresponsive" aria-controls="navbarresponsive" aria-expanded="false" aria-label="toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
+				<div class="collapse navbar-collapse" id="navbarresponsive">
 				  <ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-					  <a class="nav-link" href="login.html">Добави обява</a>
+					  <a class="nav-link" href="advert.html">Добави обява</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="login.html">Любими</a>
+					  <a class="nav-link" href="favorites.html">Любими</a>
 					</li>
+						<!-- <div class="dropdown"> -->
+						  <!-- <button class="btn btn-primary dropdown-togglebtn" date-toggle="dropdown">Иван Иванов</button> -->
+						  <!-- <div class="dropdown-content"> -->
+							<!-- <a href="#">Запазени търсения</a> -->
+							<!-- <a href="#">Настройки</a> -->
+							<!-- <a href="#">Изход</a> -->
+						  <!-- </div> -->
 					<div class="dropdown">
-					  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Иван Иванов
 					  </button>
-					  <div class="dropdown-menu">
-						<a class="dropdown-item" href="savedsearches.html">Запазени търсения</a>
-						<a class="dropdown-item" href="settings.html">Настройки</a>
-						<a class="dropdown-item" href="home.html">Изход</a>
+					  <div class="dropdown-content" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Запазени търсения</a>
+						<a class="dropdown-item" href="#">Настройки</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Изход</a>
 					  </div>
 					</div>
-				  </ul>
+						</div>			
+						
+					</ul>
 				</div>
 			  </div>
 		</nav>
+
+    <div class="header-logo"></div>
 		
 		<div class="searchboxes">
 			<div class="row" id="searchboxes">
 				<div class="col text-right">
 					<input type="text" placeholder="Търси по име..."> 
-					<button><a href="searchbyname.html">Търси</a></button>
+					<button><a href="search.html">Търси</a></button>
 				</div>
 				<div class="col text-left">
 					<input type="text" placeholder="Търси по модел..."> 
-					<button><a href="searchbymodel.html">Търси</a></button>
+					<button><a href="search.html">Търси</a></button>
 				</div>
 			</div>
 		</div>
@@ -125,7 +137,7 @@
 					</div>
 				</div>
 		</div>
-		<script src="libs/vendor/jquery/jquery.js"></script>
-		<script src="libs/js/bootstrap.js"></script>
+		<script src="libs/vendor/jquery/jquery.min.js"></script>
+		<script src="libs/js/bootstrap.min.js"></script>
 	</body>
 </html>
