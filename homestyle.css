@@ -18,7 +18,8 @@ img
 
 #leftcolumn 
 {
-	margin-top:10%;	
+	padding-left:50px;
+	margin-top:8%;	
 }
 
 .content ul
@@ -31,7 +32,62 @@ img
 	color:black;
 }
 
+.homecontent ul
+{
+	list-style-type:none;
+}
+.homecontent .dropdown-content
+{
+	margin-left:50px;
+}
+.homecontent .nav-item
+{
+	margin-bottom:10px;
+}
+.homecontent a
+{
+	color:black;
+}
 
+.savedsearchescontent .col
+{
+	margin-top:10px;
+	margin-left:50px;
+	font-size:20px;
+}
+.savedsearchescontent a
+{
+	color:black;
+}
+.savedsearchescontent .row
+{
+	margin-top:10px;
+}
+
+
+.adcontent a
+{
+	color:black;
+}
+.adcontent p
+{
+	margin-top:20px;
+}
+.adcontent button
+{
+	margin-top:20px;
+}
+.adcontent img.center
+{
+	display: block;
+    margin: 0 auto;
+}
+
+.adcontent .image img
+{
+	margin-top:20px;
+	margin-bottom:30px;
+}
 
 /* Dropdown Button */
 .dropbtn {
