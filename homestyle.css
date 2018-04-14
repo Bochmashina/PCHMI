@@ -48,7 +48,38 @@ img
 {
 	color:black;
 }
+.favheading
+{
+		margin-top:20px;
+}
 
+.favcontent .snimka
+{
+	margin-left:450px;
+}
+.favcontent .opisanie
+{
+	margin-right:550px;
+}
+
+.favcontent p
+{
+	font-size:20px;
+	white-space:nowrap;
+}
+.favcontent .ime
+{
+	margin-top:40px;
+}
+.favcontent .cena,
+.favcontent .grad
+{
+	margin-top:20px;
+}
+.favcontent a
+{
+	color:black;
+}
 .savedsearchescontent .col
 {
 	margin-top:10px;
@@ -69,26 +100,34 @@ img
 {
 	color:black;
 }
-.adcontent p
+
+.adcontent .image
 {
-	margin-top:20px;
+	margin-left:300px;
+	margin-top:100px;
 }
-.adcontent button
+.adcontent .rightcol
 {
-	margin-top:20px;
-}
-.adcontent img.center
-{
-	display: block;
-    margin: 0 auto;
+	margin-top:100px;
 }
 
-.adcontent .image img
+.adcontent .undercol
 {
-	margin-top:20px;
-	margin-bottom:30px;
+	margin-left:350px;
 }
-
+.adcontent .evaltext
+{
+	padding-left:100px;
+}
+.adcontent .commtext
+{
+	padding-left:100px;
+}
+.adcontent .commentsarea textarea
+{
+	width:543px;
+	height:180px;
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
