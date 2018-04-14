@@ -80,6 +80,17 @@ img
 {
 	color:black;
 }
+.pptext
+{
+	padding-top:20px;
+	margin-bottom:-50px;
+}
+.ppsnimka
+{
+	margin-left:300px;
+	width:auto;
+	height:auto;
+}
 .savedsearchescontent .col
 {
 	margin-top:10px;
@@ -128,6 +139,8 @@ img
 	width:543px;
 	height:180px;
 }
+
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
