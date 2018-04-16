@@ -47,10 +47,17 @@ a
 }
 
 h4{
+	/* margin-top:100px; */
+	/* margin-bottom:-150px; */
+margin-left:20%;
+}
+
+.ordercontent h4{
 	margin-top:100px;
 	margin-bottom:-150px;
 margin-left:20%;
 }
+
 
 label {
  padding: 6px 6px 6px 0;
