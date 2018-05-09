@@ -34,3 +34,9 @@ button
 {
 	margin-top:0.5%;
 }
+
+.captcha img
+{
+	width:10%;
+	height:auto;
+}

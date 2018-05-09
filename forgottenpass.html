@@ -6,7 +6,7 @@
 
     <link href="libs/css/3-col-portfolio.css" rel="stylesheet">
 	<link href="login.css" rel="stylesheet">
-		<title>Вход</title>
+		<title>Забравена парола</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -18,25 +18,29 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav ml-auto">
 				<li class="nav-item">
+				  <a class="nav-link" href="login.html">Вход</a>
+				</li>
+				<li class="nav-item">
 				  <a class="nav-link" href="register.html">Регистрация</a>
 				</li>
 			  </ul>
 			</div>
 		  </div>
 		</nav>
-		<h2>Вход</h2>
+		<h2>Забравена парола</h2>
 		<form>
 			<div class="layout">
 				<div class="email">
-					<input type="text" placeholder="Email...">
+					Мобилен телефон:   <input type="text">
+				</div>
+				<div class="image captcha">
+					<img src="captcha.jpg"></img>
 				</div>
 				<div class="pass">
-					<input type="password" placeholder="Парола...">
+					Текст от картинката: <input type="text">
 				</div>
-			<button><a href="userhome.html">Вход</button>
-			<div class="row justify-content-center">
-				<a href="forgottenpass.html">Забавена парола</a>
-			</div>
+			<button><a href="home.html">Потвърди</button>
+				<a href="home.html">Откажи</a>
 		</div>
 		</form>
 		<script src="libs/vendor/jquery/jquery.js"></script>
