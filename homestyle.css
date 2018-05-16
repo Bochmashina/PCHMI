@@ -1,3 +1,9 @@
+body
+{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 #searchboxes
 {
 	margin-top:2%;
@@ -18,7 +24,7 @@ img
 
 #leftcolumn 
 {
-	padding-left:50px;
+	padding-left:4%;
 	margin-top:8%;	
 }
 
@@ -38,16 +44,39 @@ img
 }
 .homecontent .dropdown-content
 {
-	margin-left:50px;
+	margin-left: 1%;
 }
 .homecontent .nav-item
 {
 	margin-bottom:10px;
+	width:5%;
 }
+
 .homecontent a
 {
 	color:black;
 }
+.homecontent .col-md-2
+{
+	height:200px;
+}
+.homecontent h5,span
+{
+	width:110%;
+	margin-left:-15%;
+	margin-top:40%;
+}
+.homecontent .mostviewed2row
+{
+	margin-top:-12%;
+	margin-bottom:2%;
+}
+.homecontent .newadsrow
+{
+	margin-top:1%;
+	margin-bottom:2%;
+}
+
 .favheading
 {
 		margin-top:20px;
@@ -182,3 +211,4 @@ img
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
