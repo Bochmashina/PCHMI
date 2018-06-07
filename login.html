@@ -3,7 +3,6 @@
 	<head>
 	<meta charset="UTF-8">
     <link href="libs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <link href="libs/css/3-col-portfolio.css" rel="stylesheet">
 	<link href="login.css" rel="stylesheet">
 		<title>Вход</title>
@@ -24,20 +23,24 @@
 			</div>
 		  </div>
 		</nav>
-		<h2>Вход</h2>
+		
+	
 		<form>
+			<h2>Вход</h2>
 			<div class="layout">
-				<div class="email">
-					<input type="text" placeholder="Email...">
+				<div class="credential">
+					
+					<input type="text" placeholder="Email..."  id="mail">
 				</div>
-				<div class="pass">
-					<input type="password" placeholder="Парола...">
+				<div class="credential">
+					
+					<input type="password" placeholder="Парола..." id="pass">
 				</div>
-			<button><a href="userhome.html">Вход</button>
-			<div class="row justify-content-center">
-				<a href="forgottenpass.html">Забавена парола</a>
+				<button><a href="userhome.html">Вход</button>
+				<div class="row justify-content-center">
+					<a id="forgotten" href="forgottenpass.html">Забравена парола</a>
+				</div>
 			</div>
-		</div>
 		</form>
 		<script src="libs/vendor/jquery/jquery.js"></script>
 		<script src="libs/js/bootstrap.js"></script>
