@@ -22,7 +22,7 @@
 						  <a class="nav-link" href="newadvert.html">+ Добави обява</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="favorites.html">Любими</a>
+						  <a class="nav-link" href="favorites.html">&#10084; Любими</a>
 						</li>
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,32 +40,13 @@
 			</div>
 		</nav>
 
-    <div class="header-logo"></div>
-		
-		<div class="searchboxes">
-			<div class="row" id="searchboxes">
-				<div class="col text-right">
-					<input type="text" placeholder="Търси по име..."> 
-					<button><a href="search.html">Търси</a></button>
-				</div>
-				<div class="col text-left">
-					<input type="text" placeholder="Търси по модел..."> 
-					<button><a href="search.html">Търси</a></button>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col text-center">
-				<h3>Най-преглеждани обяви</h3>
-			</div>
-		</div>
-		
-		<div class="homecontent">
-			<div class="row">
-				<div class="col-md-3 text-left" id="leftcolumn">
-					<ul class="nav flex-column">
-					  <li class="nav-item">
+    
+		<div class="vehiclenav">
+			<div class="row justify-content-left">
+				
+					<ul class="list-inline">
+					
+					  <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Автомобили и джипове
@@ -80,7 +61,8 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="nav-item">
+					  
+					  <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Бусове
@@ -95,7 +77,8 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="nav-item">
+					  
+					  <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Камиони
@@ -110,7 +93,8 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="nav-item">
+					  
+					  <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Мотоциклети
@@ -125,7 +109,8 @@
 						  </div>
 						</div>
 					  </li>
-						<li class="nav-item">
+					  
+					  <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Автобуси
@@ -140,7 +125,8 @@
 						  </div>
 						</div>
 					  </li>
-					   <li class="nav-item">
+					  
+					   <li class="list-inline-item">
 						<div class="dropdown">
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Селскостопански
@@ -155,65 +141,191 @@
 						  </div>
 						</div>
 					  </li>
+					  
 					</ul>
-				</div>
-					<div class="col-md-3">
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-						<div class="image">
-							<a href="diuzaFiat.html"><img src="diuzaFiat.jpg">
-							<h5><span>
-								Дюза Фиат Браво 1.6
-								</br>
-								Цена 70лв.
-							</span></h5>
-						</div>
-					</div>
-				</div>
+			</div>	
 		</div>
-		<script src="libs/vendor/jquery/jquery.min.js"></script>
-		<script src="libs/js/bootstrap.min.js"></script>
+		
+		
+		<div class="searchboxes">		
+			<div class="row justify-content-center" id="searchboxes">
+				<div class="text-left">
+					<input type="text" placeholder="Търси по име..."> 
+					<button><a href="search.html">Търси</a></button>
+				</div>
+				<div class="text-right">
+					<input type="text" placeholder="Търси по модел..."> 
+					<button><a href="search.html">Търси</a></button>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="homecontent">
+			<div class="row offset-md-3">
+				<div class="col mostviewedads">
+					<h3>Най-преглеждани обяви</h3>
+				</div>
+			</div>
+			<div class="row">
+			
+				<div class="row">
+					<div class="adbox">
+						<div class="col-md-6 part">
+									<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+						</div>
+						<div class="col-md-6">
+									<span>
+						Дюза Фиат Браво 1.6
+					Цена 70лв.
+									</span>
+						</div>
+					</div>
+					<div class="adbox">
+						<div class="col-md-6 part">
+									<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+						</div>
+						<div class="col-md-6">
+									<span>Дюза Фиат Браво 1.6
+					Цена 70лв.
+									</span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col elephantad">
+						<img src="elephantad.png">
+					</div>
+				</div>
+				<div class="row mostviewed2row">
+					<div class="adbox">
+						<div class="col-md-6 part">
+									<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+						</div>
+						<div class="col-md-6">
+									<span>
+						Дюза Фиат Браво 1.6
+					Цена 70лв.
+									</span>
+						</div>
+					</div>
+					<div class="adbox">
+						<div class="col-md-6 part">
+									<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+						</div>
+						<div class="col-md-6">
+									<span>Дюза Фиат Браво 1.6
+					Цена 70лв.
+									</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row offset-md-3 ">
+				<div class="col newestads">
+					<h3>Най-нови обяви</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="row newadsrow">
+					<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>
+							Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+						<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+				</div>
+				<div class="row newadsrow">
+					<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>
+							Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+						<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="row newadsrow">
+					<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>
+							Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+						<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+				</div>
+				<div class="row newadsrow">
+					<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>
+							Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+						<div class="adbox">
+							<div class="col-md-6 part">
+										<a href="diuzaFiat.html"><img src="diuzaFiat.jpg"></a>
+							</div>
+							<div class="col-md-6">
+										<span>Дюза Фиат Браво 1.6
+						Цена 70лв.
+										</span>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<script src="libs/vendor/jquery/jquery.js"></script>
+		<script src="libs/js/bootstrap.js"></script>
 	</body>
 </html>

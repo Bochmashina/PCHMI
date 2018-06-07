@@ -55,18 +55,27 @@ img
 {
 	list-style-type:none;
 }
-.homecontent .mostviewed
+.homecontent .mostviewedads
 {
-	margin-top:1%;
-	margin-bottom:1%;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:4%;
 }
+
+.homecontent .newestads
+{
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:8%;
+}
+
 .homecontent .adbox > div
 {
 	display:inline-block;
 }
 .homecontent .adbox
 {
-	background:rgba(255, 198, 24,0.8);
+	background:rgba(244, 191, 66, 0.7);
 	opacity:0.9;
 	max-width:39%;
 	border: solid 1px;

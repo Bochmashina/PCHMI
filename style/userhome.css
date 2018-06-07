@@ -1,11 +1,18 @@
-@media only screen and (max-width: 768px) {
-    span {
-        display:block;
-		width:200%;
-    }
-	.homecontent .adbox > div
+@media only screen and (max-width: 1460px){
+	.elephantad img
 	{
-		display:block;
+		display:none;
+	}
+}
+@media only screen and (max-width: 1006px){
+	.elephantad img
+	{
+		display:none;
+	}
+	
+	 .homecontent span:before {
+    content: '\A \A';
+    white-space: pre;
 	}
 	
 }
@@ -23,6 +30,7 @@ body
 	height:auto;
 	margin-right:0.5%;
 }
+
 #searchboxes .text-left
 {
 	padding-right:2%;
@@ -32,25 +40,33 @@ body
 {
 	color:black;
 }
+.vehiclenav
+{
+	margin-top:1%;
+	margin-left:2%;
+}
 img
 {
   width: 200px;
   height: auto;
 }
 
-.navigationrow
-{
-	display:inline;
-}
-
 .homecontent ul
 {
 	list-style-type:none;
 }
-.homecontent .mostviewed
+.homecontent .mostviewedads
 {
-	margin-top:1%;
-	margin-bottom:1%;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:4%;
+}
+
+.homecontent .newestads
+{
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:8%;
 }
 .homecontent .adbox > div
 {
@@ -58,16 +74,27 @@ img
 }
 .homecontent .adbox
 {
-	background:white;
+	background:rgba(244, 191, 66, 0.7);
 	opacity:0.9;
-	max-width:32%;
+	max-width:39%;
 	border: solid 1px;
+	border-radius:3%;
+	margin-left:11%;
 }
 .homecontent .part
 {
 	width:200px;
 }
 
+.homecontent .elephantad
+{
+	position:fixed;
+	left:75%;
+}
+.homecontent .elephantad img
+{
+	width:15%;
+}
 .homecontent a
 {
 	color:black;
@@ -128,4 +155,3 @@ img
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
