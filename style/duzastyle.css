@@ -1,6 +1,6 @@
 .comment{
 	border-bottom: solid 2px #c6c6c6;
-	background-color:rgba(244, 191, 66, 0.7);
+	background-color:rgba(244, 191, 66, 0.4);
 }
 
 .commentuser
@@ -77,11 +77,14 @@ textarea
 {
 	margin-top:2%;
 	margin-left:2%;
+	
+	
 }
 
 .adinfo
 {
-
+	background-color:rgba(244, 191, 66, 0.4);
+	border-radius: 6px;
 }
 
 .adpic
