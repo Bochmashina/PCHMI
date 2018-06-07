@@ -5,17 +5,52 @@ body
     background-attachment: fixed;
 }
 
+h3
+{
+	text-align: center;
+	margin-top: 3%;
+}
+
+img
+{
+	height: 40px;
+	width: auto;
+	
+}
+
+.ad
+{
+	float:right;
+	width:200px;
+	height: auto;
+	margin-right:10%;
+}
+.setting
+{
+	font-size: 200%;
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin-bottom:3%;
+}
+
+.setting:hover
+{
+	color: orange;
+	text-decoration: none;
+}
+
+.settingslist
+{
+	margin-top: 5%;
+	margin-left:10%;
+}
+
 .navbar .container img
 {
 	width:40px;
 	height:auto;
 	margin-right:0.5%;
-}
-
-.pptext
-{
-	margin-top:1%;
-	margin-bottom:1%;
 }
 
 .dropbtn {
