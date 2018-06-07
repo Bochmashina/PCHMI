@@ -16,6 +16,13 @@ body
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.navbar .container img
+{
+	width:40px;
+	height:auto;
+	margin-right:0.5%;
+}
 #searchboxes .text-left
 {
 	padding-right:2%;

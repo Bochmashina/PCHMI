@@ -5,6 +5,12 @@ body
     background-attachment: fixed;
 }
 
+.navbar .container img
+{
+	width:40px;
+	height:auto;
+	margin-right:0.5%;
+}
 .savedsearchescontent .col
 {
 	margin-top:10px;

@@ -11,19 +11,27 @@ body
 }
 
 
+
 .backtosearch
 {
 	font-size: 130%;
 }
 
-img
+
+.navbar .container img
+{
+	width:40px;
+	height:auto;
+	margin-right:0.5%;
+}
+
+.adcontent img
 {
   margin-top:5%;
   display: block;
   width: 200px;
   height: auto;
 }
-
 .adcontent a
 {
 	color:black;
