@@ -1,18 +1,6 @@
-@media only screen and (max-width: 768px) {
-    span {
-        display:block;
-		width:200%;
-    }
-	.homecontent .adbox > div
-	{
-		display:block;
-	}
-	
-}
-
 body
 {
-	background-image: url("background.jpg");
+	background-image: url("../background.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -25,30 +13,11 @@ body
 {
 	color:black;
 }
-.vehiclenav
-{
-	margin-top:1%;
-	margin-left:2%;
-}
+
 img
 {
   width: 200px;
   height: auto;
-}
-
-.navigationrow
-{
-	display:inline;
-}
-
-.content ul
-{
-	font-size:150%;
-	list-style-type: none;	
-}
-.content a
-{
-	color:black;
 }
 
 .homecontent ul
@@ -98,101 +67,7 @@ img
 	margin-top:1%;
 	margin-bottom:2%;
 }
-.favheading
-{
-		margin-top:20px;
-}
 
-.favcontent .snimka
-{
-	margin-left:450px;
-}
-.favcontent .opisanie
-{
-	margin-right:550px;
-}
-
-.favcontent p
-{
-	font-size:20px;
-	white-space:nowrap;
-}
-.favcontent .ime
-{
-	margin-top:40px;
-}
-.favcontent .cena,
-.favcontent .grad
-{
-	margin-top:20px;
-}
-.favcontent a
-{
-	color:black;
-}
-.pptext
-{
-	padding-top:20px;
-	margin-bottom:-50px;
-}
-.ppsnimka
-{
-	margin-left:300px;
-	width:auto;
-	height:auto;
-}
-.savedsearchescontent .col
-{
-	margin-top:10px;
-	margin-left:50px;
-	font-size:20px;
-}
-.savedsearchescontent a
-{
-	color:black;
-}
-.savedsearchescontent .row
-{
-	margin-top:10px;
-}
-
-
-.adcontent a
-{
-	color:black;
-}
-.adcontent .backtosearch
-{
-	margin-top:2%;
-	margin-left:2%;
-}
-.adcontent .image
-{
-	margin-left:300px;
-	margin-top:2%;
-}
-.adcontent .rightcol
-{
-	margin-top:2%;
-}
-
-.adcontent .undercol
-{
-	margin-left:350px;
-}
-.adcontent .evaltext
-{
-	padding-left:100px;
-}
-.adcontent .commtext
-{
-	padding-left:100px;
-}
-.adcontent .commentsarea textarea
-{
-	width:543px;
-	height:180px;
-}
 
 
 .dropbtn {

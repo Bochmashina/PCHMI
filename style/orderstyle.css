@@ -6,7 +6,7 @@ html
 
 body
 {
-	background-image: url("background.jpg");
+	background-image: url("../background.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -18,29 +18,8 @@ a
 	&:hover, &:visited, &:active { color:black; }
 }
 
-.header
-{
-	padding-top: 10px;
-	padding-left: 15px;
-	padding-right: 20px;
-}
 
-.header ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.header h1 {
-	display:inline;
-}
-
-.header li	{
-	display:inline;
-}
-
-.content
+.ordercontent
 {
 	height: 100%;
 	width: 100%;
@@ -126,19 +105,4 @@ button:hover {
 .formcontainer {
   border-radius: 5px;
   padding: 20px;
-}
-
-.addadvert .acceptbtn
-{
-	margin-left:30%;
-}
-.addadvert .refusebtn
-{
-	margin-left:2%;
-}
-
-
-.forcompany {
-	margin-top: 1%;
-	margin-left:1%;
 }

@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("background.jpg");
+	background-image: url("../background.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -29,16 +29,6 @@ a
 	text-decoration:underline;
 }
 
-.header
-{
-	padding-top: 10px;
-	padding-left: 15px;
-}
-
-.header h1 {
-	display:inline;
-}
-
 h2
 {
 	text-align:center;
@@ -47,16 +37,6 @@ h2
 .layout
 {
 	text-align:center;
-}
-
-.email
-{
-	margin-top:2%;
-}
-
-.pass
-{
-	margin-top:0.5%;
 }
 
 .credential
@@ -73,10 +53,4 @@ button
 	border-radius: 5px;
 	width: 30%;
 	border: none;
-}
-
-.captcha img
-{
-	width:20%;
-	height:auto;
 }

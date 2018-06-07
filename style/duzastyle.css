@@ -1,0 +1,102 @@
+.comment{
+	border-bottom: solid 2px #c6c6c6;
+	background-color: #ebebe0;
+}
+
+body
+{
+	background-image: url("../background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.backtosearch
+{
+	font-size: 130%;
+}
+
+img
+{
+  margin-top:5%;
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.adcontent a
+{
+	color:black;
+}
+.adcontent .backtosearch
+{
+	margin-top:2%;
+	margin-left:2%;
+}
+.adcontent .image
+{
+	margin-left:300px;
+	margin-top:2%;
+}
+.adcontent .rightcol
+{
+	margin-top:2%;
+}
+
+.adcontent .undercol
+{
+	margin-left:350px;
+}
+.adcontent .evaltext
+{
+	padding-left:100px;
+}
+.adcontent .commtext
+{
+	padding-left:100px;
+}
+.adcontent .commentsarea textarea
+{
+	width:543px;
+	height:180px;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+

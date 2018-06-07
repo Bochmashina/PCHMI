@@ -1,0 +1,61 @@
+body
+{
+	background-image: url("../background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form
+{
+	background-color: #ebebe0;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 8%;
+	border-radius: 5px; 
+	padding-top: 2%;
+	padding-bottom:2%;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+	&:hover, &:visited, &:active { color:black; }
+}
+
+h2
+{
+	text-align:center;
+}
+
+.layout
+{
+	text-align:center;
+}
+
+.email
+{
+	margin-top:2%;
+}
+
+.pass
+{
+	margin-top:0.5%;
+}
+
+.captcha img
+{
+	width:20%;
+	height:auto;
+}
+button
+{
+	margin-top:1%;
+	margin-bottom: 1%;
+	color: white;
+	background-color: #555555;
+	border-radius: 5px;
+	width: 30%;
+	border: none;
+}
+
