@@ -1,0 +1,105 @@
+html
+{
+	overflow-y:scroll;
+	height:150%;
+}
+
+body
+{
+	background-image: url("../background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form
+{
+	background-color:rgba(244, 191, 66, 0.7);
+	border-radius: 5px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width:150%;
+	margin-left: -15%;
+}
+
+.navbar .container img
+{
+	width:40px;
+	height:auto;
+	margin-right:0.5%;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+	&:hover, &:visited, &:active { color:black; }
+}
+
+.content
+{
+	height: 100%;
+	width: 100%;
+}
+
+h4{
+	/* margin-top:100px; */
+	/* margin-bottom:-150px; */
+	margin-left:30%;
+
+}
+
+label {
+ padding: 6px 6px 6px 0;
+  display: inline-block;
+}
+
+input/* [type=text] */ {
+ /*    width: 100%; */
+  padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input/* [type=text] */:focus {
+    border: 3px solid #555;
+}
+
+button {
+    background-color: #637074;
+    border: none;
+    color: white;
+	padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	margin-left: 40%;
+	margin-top: 1%;
+ }
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.formlabel{
+  float: left;
+  width: 25%;
+  margin-top: 3px;
+  margin-left:20%
+}
+
+.forminput {
+  float: left;
+  width: 50%;
+  margin-top: 3px;
+}
+
+.formcontainer {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.forcompany {
+	margin-top: 1%;
+	margin-left:1%;
+}
