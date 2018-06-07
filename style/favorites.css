@@ -2,6 +2,7 @@ body
 {
 	background-image: url("../background.jpg");
 	background-repeat: no-repeat;
+	background-size:cover;
     background-attachment: fixed;
 }
 .navbar .container img
@@ -15,40 +16,52 @@ img
 {
   width: 200px;
   height: auto;
+  display:block;
 }
 
 .favheading
 {
-		margin-top:20px;
+		margin-top:1%;
 }
 
-.favcontent .snimka
+.favcontent .adbox > div
 {
-	margin-left:450px;
+	display:inline-block;
 }
-.favcontent .opisanie
+.favcontent .adbox
 {
-	margin-right:550px;
+	background:rgba(244, 191, 66, 0.7);
+	opacity:0.9;
+	max-width:50%;
+	border: solid 1px;
+	border-radius:3%;
+	margin-top:1%;
+}
+.favcontent .part
+{
+	width:200px;
+	
 }
 
 .favcontent p
 {
 	font-size:20px;
-	white-space:nowrap;
 }
 .favcontent .ime
 {
-	margin-top:40px;
+	margin-top:10%;
 }
-.favcontent .cena,
-.favcontent .grad
+
+.favcontent button
 {
-	margin-top:20px;
+	margin-bottom:1%;
 }
 .favcontent a
 {
 	color:black;
 }
+
+
 
 .dropbtn {
     background-color: #4CAF50;

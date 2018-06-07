@@ -25,56 +25,77 @@ img
 {
   width: 200px;
   height: auto;
+  display:block;
 }
 
-.homecontent ul
-{
-	list-style-type:none;
-}
-.homecontent .mostviewed
+.vehiclenav
 {
 	margin-top:1%;
-	margin-bottom:1%;
+	margin-left:2%;
 }
-.homecontent .adbox > div
+
+.heading
+{
+		margin-top:1%;
+}
+
+.content .adbox > div
 {
 	display:inline-block;
 }
-.homecontent .adbox
+.content .adbox
 {
-	background:white;
+	background:rgba(244, 191, 66, 0.7);
 	opacity:0.9;
-	max-width:32%;
+	max-width:50%;
 	border: solid 1px;
+	border-radius:3%;
+	margin-top:1%;
 }
-.homecontent .part
+.content .part
 {
 	width:200px;
+	
 }
 
-.homecontent a
+.content p
+{
+	font-size:20px;
+}
+.content .ime
+{
+	margin-top:10%;
+}
+
+.content button
+{
+	margin-bottom:1%;
+}
+.content a
 {
 	color:black;
-	float:left;
-}
-.homecontent span
-{
-	font-size: 20px;
-    font-weight: bold;
-	position: relative;
-    top: -70px;
-}
-.homecontent .mostviewed2row
-{
-	margin-bottom:2%;
-	margin-top:2%;
-}
-.homecontent .newadsrow
-{
-	margin-top:1%;
-	margin-bottom:2%;
 }
 
+.pagination li {
+    display: inline-block;
+	margin: 2%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	background-color:lightgrey;
+	border: solid 1px;
+	border-radius:5%;
+}
+
+.pagination a.active {
+    background-color: rgb(244, 191, 66);
+}
+
+.pagination a:hover:not(.active) {background-color: green;}
 
 
 .dropbtn {
