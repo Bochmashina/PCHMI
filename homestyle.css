@@ -1,31 +1,44 @@
+@media only screen and (max-width: 768px) {
+    span {
+        display:block;
+		width:200%;
+    }
+	.homecontent .adbox > div
+{
+	display:block;
+}
+	
+}
+
 body
 {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
-#searchboxes
+#searchboxes .text-left
 {
-	margin-top:2%;
+	padding-right:2%;
 }
 
 #searchboxes a
 {
 	color:black;
 }
-
+.vehiclenav
+{
+	margin-top:1%;
+	margin-left:2%;
+}
 img
 {
-  margin-top:5%;
-  display: block;
   width: 200px;
   height: auto;
 }
 
-#leftcolumn 
+.navigationrow
 {
-	padding-left:4%;
-	margin-top:8%;	
+	display:inline;
 }
 
 .content ul
@@ -42,41 +55,49 @@ img
 {
 	list-style-type:none;
 }
-.homecontent .dropdown-content
+.homecontent .mostviewed
 {
-	margin-left: 1%;
+	margin-top:1%;
+	margin-bottom:1%;
 }
-.homecontent .nav-item
+.homecontent .adbox > div
 {
-	margin-bottom:10px;
-	width:5%;
+	display:inline-block;
+}
+.homecontent .adbox
+{
+	background:white;
+	opacity:0.9;
+	max-width:32%;
+	border: solid 1px;
+}
+.homecontent .part
+{
+	width:200px;
 }
 
 .homecontent a
 {
 	color:black;
+	float:left;
 }
-.homecontent .col-md-2
+.homecontent span
 {
-	height:200px;
-}
-.homecontent h5,span
-{
-	width:110%;
-	margin-left:-15%;
-	margin-top:40%;
+	font-size: 20px;
+    font-weight: bold;
+	position: relative;
+    top: -70px;
 }
 .homecontent .mostviewed2row
 {
-	margin-top:-12%;
 	margin-bottom:2%;
+	margin-top:2%;
 }
 .homecontent .newadsrow
 {
 	margin-top:1%;
 	margin-bottom:2%;
 }
-
 .favheading
 {
 		margin-top:20px;
