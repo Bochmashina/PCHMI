@@ -1,6 +1,6 @@
 .comment{
 	border-bottom: solid 2px #c6c6c6;
-	background-color:rgba(244, 191, 66, 0.4);
+	background:rgba(244, 191, 66, 0.7);
 }
 
 .commentuser
@@ -83,7 +83,7 @@ textarea
 
 .adinfo
 {
-	background-color:rgba(244, 191, 66, 0.4);
+	background:rgba(244, 191, 66, 0.7);
 	border-radius: 6px;
 }
 
