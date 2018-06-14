@@ -10,24 +10,36 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		  <div class="container">
-			<img src="gears.png">
-			<a class="navbar-brand" href="home.html">Части</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-			  <ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-				  <a class="nav-link" href="login.html">Вход</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="register.html">Регистрация</a>
-				</li>
-			  </ul>
+			<div class="container">
+				<img src="gears.png">
+				<a class="navbar-brand" href="userhome.html">Части</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarresponsive" aria-controls="navbarresponsive" aria-expanded="false" aria-label="toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarresponsive">
+				  <ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+						  <a class="nav-link" href="newadvert.html">+ Добави обява</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="favorites.html">&#10084; Любими</a>
+						</li>
+						<div class="dropdown">
+						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Иван Иванов
+						  </button>
+						  <div class="dropdown-content" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="savedsearches.html">Запазени търсения</a>
+							<a class="dropdown-item" href="settings.html">Настройки</a>
+							<a class="dropdown-item" href="home.html">Изход</a>
+						  </div>
+						</div>						
+					</ul>
+				</div>			
+
 			</div>
-		  </div>
 		</nav>
+		
 		<div class="vehiclenav">
 			<div class="row justify-content-left">
 				
@@ -146,6 +158,9 @@
 				<h3>Резултати от търсенето</h3>
 			</div>
 		</div>
+		<div class="row justify-content-center">
+			<button id="savesearch">Запази търсенето</button>
+		</div>
 		
 		<div class="content">
 			<div class="row justify-content-center">
@@ -163,7 +178,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
@@ -182,7 +197,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
@@ -201,7 +216,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
@@ -220,7 +235,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
@@ -239,7 +254,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
@@ -258,7 +273,7 @@
 								<p>
 									Град София
 								</p>
-							<button>Премахни от любими</button>
+							<button id="order">Поръчай</button>
 						</div>
 				</div>
 			</div>
